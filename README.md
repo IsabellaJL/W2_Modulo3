@@ -27,9 +27,9 @@ The JavaScript code does the following::
 Object `products`:
 
 const products = {
-1: { id: 1, name: "Laptop", price: 1500 },
-3: { id: 3, name: "Mouse", price: 25 },
-2: { id: 2, name: "Keyboard", price: 50 },
+1: { id: 1, name: "Quiche", price: 7500 },
+3: { id: 3, name: "Tarte", price: 2500  },
+2: { id: 2, name: "Eclair", price: 5000 },
 };
 
 Set `setProducts`:
@@ -39,9 +39,9 @@ const setProducts = new Set(Object.values(products).map(product => product.name)
 Map `mapProducts`:
 
 const mapProducts = new Map([
-["Electronica", "Laptop"],
-["Accesories", "Mouse"],
-["Accesories", "Keyboard"],
+["cuisine","Quiche"],
+["desserts","Tarte"],
+["desserts","Eclair"],
 ]);
 
 Loops: The script loops through each structure and displays results in the console.
